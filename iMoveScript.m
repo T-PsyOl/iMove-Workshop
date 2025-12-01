@@ -108,7 +108,7 @@ end
 nStreams = numel(keyIndex);
 fprintf('\nFound %d keyboard streams.\n', nStreams);
 
-%% --- 3. Tone → number mapping (for plot) ---
+% --- 3. Tone → number mapping (for plot) ---
 toneMap = containers.Map( ...
     {'C','D','E','F','G','A','B', ...
      'c','d','e','f','g','a','b'}, ...
@@ -118,7 +118,7 @@ toneMap = containers.Map( ...
 %% --- 4. Prepare figure ---
 figure; clf; set(gcf,'Color','w');
 
-%% --- 5. Process each stream ---
+% --- 5. Process each stream ---
 all_pressTimes   = {};
 all_releaseTimes = {};
 all_toneVals     = {};
@@ -147,8 +147,8 @@ for s = keyIndex
     pressTones   = {};
     releaseTimes = [];
     releaseTones = {};
-
-    %% --- Parse each event ---
+    
+    % --- Parse each event ---
     for k = 1:nEvents
         str = evtStrings{k};     % e.g. "C pressed"
         parts = split(str);      % {"C", "pressed"}
@@ -181,7 +181,7 @@ for s = keyIndex
     all_releaseTimes{s} = releaseTimes;
     all_toneVals{s}     = toneVals;
 
-    %% --- Plot single participant ---
+    % --- Plot single participant ---
     subplot(nStreams,1,s);
     hold on;
 
@@ -200,13 +200,6 @@ for s = keyIndex
     ylabel('Tone');
     title(sprintf('Participant %d (%s)', s, stream.info.name), ...
         'Interpreter','none');
-
-    %% --- Sonification ---
-%    for k = 1:nNotes
-%        tone = pressTones{k};   % e.g. 'C'
-%        dur  = releaseTimes(k) - pressTimes(k);
-%        sonify_note(tone, dur);
-%    end
 end
 
 %% --- 6. Combined Plot of All Participants ---
@@ -288,7 +281,7 @@ totalDuration = ceil(max(allEndTimes)) + 0.5;
 tAudio = 0:1/fs:totalDuration;
 fadeSamples = round(0.01 * fs);
 
-%% --- Generate participant audio ---
+% --- Generate participant audio ---
 for s = keyIndex
     y = zeros(size(tAudio));
     p = all_pressTimes{s};
@@ -323,7 +316,7 @@ for s = keyIndex
     participantAudio{s} = y;
 end
 
-%% --- Mix participants ---
+% --- Mix participants ---
 mixedAudio = zeros(size(tAudio));
 for s = keyIndex
     mixedAudio = mixedAudio + participantAudio{s};
@@ -331,7 +324,7 @@ end
 
 mixedAudio = mixedAudio / max(abs(mixedAudio));
 
-%% --- Play mixed audio ---
+% --- Play mixed audio ---
 sound(mixedAudio, fs);
 sound(participantAudio{1}, fs);
 
