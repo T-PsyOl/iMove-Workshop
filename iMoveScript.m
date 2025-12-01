@@ -296,7 +296,13 @@ for s = keyIndex
         if dur <= 0, dur = 0.1; end
         tNote = 0:1/fs:dur;
         noteWave = 0.3 * sin(2*pi*freq*tNote);
-
+        % alternative using harmonics
+        %noteWave = 0.3*( ...
+        %    1.00 * sin(2*pi*freq*1*tNote)  ... fundamental
+        %    + 0.50 * sin(2*pi*freq*2*tNote)  ... 2nd harmonic
+        %    + 0.30 * sin(2*pi*freq*3*tNote)  ... 3rd harmonic
+        %    + 0.15 * sin(2*pi*freq*4*tNote)  ... 4th harmonic
+        %    );
         startIdx = round(p(k)*fs) + 1;
         endIdx   = startIdx + length(noteWave) - 1;
         if endIdx > length(y)
