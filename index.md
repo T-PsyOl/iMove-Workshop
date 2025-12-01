@@ -39,7 +39,7 @@ Created by **Martin Bleichner (2025)**.
 > *Note:* No guarantee of precise event timing — this tool is intended for
 training and demonstration purposes.
 
-### **2. XDF Sonification Tool**
+### **2. `iMoveScript.m`**
 A script that:
 - Loads XDF files  
 - Identifies keyboard streams  
