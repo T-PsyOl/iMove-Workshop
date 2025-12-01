@@ -55,6 +55,6 @@ A script that:
 Designed for illustrating timing, coordination, and event structure in
 multimodal data.
 
-[Download iMoveScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/Keyboard_XDF_Sonification.m)
+[Download iMoveScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/iMoveScript.m)
 
 
