@@ -38,8 +38,7 @@ Created by **Martin Bleichner (2025)**.
 
 > *Note:* No guarantee of precise event timing — this tool is intended for
 training and demonstration purposes.
-
-[Download keyboardScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/keyboardEventScript.m)
+> 
 <a href="https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/keyboardEventScript.m"
    download="keyboardEventScript.m"
    style="display:inline-block;
@@ -49,7 +48,7 @@ training and demonstration purposes.
           border-radius:6px;
           text-decoration:none;
           font-weight:600;">
-  📥 Download keyboardEventScript.m
+  📥 Get keyboardEventScript.m
 </a>
 
 
@@ -65,6 +64,15 @@ A script that:
 Designed for illustrating timing, coordination, and event structure in
 multimodal data.
 
-[Download iMoveScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/iMoveScript.m)
-
+<a href="https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/iMoveScript.m"
+   download="iMoveScript.m"
+   style="display:inline-block;
+          padding:10px 16px;
+          background:#007acc;
+          color:white;
+          border-radius:6px;
+          text-decoration:none;
+          font-weight:600;">
+  📥 Get iMoveScript.m
+</a>
 
