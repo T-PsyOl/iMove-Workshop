@@ -29,7 +29,7 @@ multimodal recording and analysis pipelines.
 
 ## Materials Included in This Repository
 
-### **1. `keyboardScript.m`**
+### **1. `keyboardEventScript.m`**
 A minimal LSL event stream generator that sends keyboard press and release
 events as markers.  
 Useful for prototyping timing, testing experimental pipelines, and validating
@@ -39,8 +39,18 @@ Created by **Martin Bleichner (2025)**.
 > *Note:* No guarantee of precise event timing — this tool is intended for
 training and demonstration purposes.
 
-[Download keyboardScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/keyboardScript.m)
-
+[Download keyboardScript.m](https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/keyboardEventScript.m)
+<a href="https://raw.githubusercontent.com/T-PsyOl/iMove-Workshop/main/keyboardEventScript.m"
+   download="keyboardEventScript.m"
+   style="display:inline-block;
+          padding:10px 16px;
+          background:#007acc;
+          color:white;
+          border-radius:6px;
+          text-decoration:none;
+          font-weight:600;">
+  📥 Download keyboardEventScript.m
+</a>
 
 
 ### **2. `iMoveScript.m`**
