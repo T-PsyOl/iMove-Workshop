@@ -104,14 +104,14 @@ function keyboardEventScript()
     % --- callbacks ---
     function onKeyPress(~, event)
         key = event.Key;
-        label = ['pressed' key];
+        label = ['pressed ' key];
         outlet.push_sample({label});
         fprintf('Pressed: %s\n', key);
     end
 
     function onKeyRelease(~, event)
         key = event.Key;
-        label = ['released' key];
+        label = ['released ' key];
         outlet.push_sample({label});
         fprintf('Released: %s\n', key);
     end
