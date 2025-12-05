@@ -154,21 +154,18 @@ Reply from <IP>: bytes=32 time<1ms TTL=128
 If all machines can ping each other, the network is ready.
 
 ### Roles of the Three Computers
-PC1 Recording Computer
+- PC1 Recording Computer
+   One laptop serves as the recording machine.
+   It runs LabRecorder, which collects all available LSL streams and stores them         together in a single XDF file.
 
-One laptop serves as the recording machine.
-It runs LabRecorder, which collects all available LSL streams and stores them together in a single XDF file.
+- PC2 and PC3 Data-Generating Computers
+     The other two laptops each run a small MATLAB script (included in this       repository).
+   These scripts:
 
-PC2 and PC3 Data-Generating Computers
+   - Create an LSL event stream
+   - Send keyboard press and release events in real time
 
-The other two laptops each run a small MATLAB script (included in this repository).
-These scripts:
-
-* Create an LSL event stream
-
-* Send keyboard press and release events in real time
-
-Once running, these streams automatically appear in LabRecorder on the recording laptop.
+   Once running, these streams automatically appear in LabRecorder on the recording laptop.
 
 ### Running the Demo
 
