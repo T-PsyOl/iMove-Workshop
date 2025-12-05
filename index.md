@@ -80,7 +80,7 @@ multimodal data.
 ## Prerequisites: MATLAB + EEGLAB + LSL Libraries
 To ensure that the scripts in this repository run correctly, please complete the following setup steps.
 
-1. Install MATLAB
+1. Open MATLAB
 
 2. Install EEGLAB
 Download EEGLAB from the official website:
@@ -125,6 +125,76 @@ If you want to record your own LSL data (e.g., keyboard events, EEG streams, sen
 
 Choose the appropriate version for your operating system, download it, and unzip it.
 No installation is required — just run the LabRecorder executable.
+
+## How to Use the Demo Setup
+For the demonstration, we use three laptops, all connected to the same local network (in our case, a WiFi network without internet access).
+
+### Network Setup
+To ensure that all LSL data streams can reach each other reliably:
+
+Disable the firewall on all three laptops
+(remember to turn it back on before reconnecting to the internet).
+
+Check IP connectivity
+
+Open the terminal: press Win + R, type cmd, press Enter
+
+Look up the computer’s IP address:
+'''
+ipconfig
+'''
+From each machine, test whether the others are reachable:
+
+ping <IP-address-of-other-computer>
+
+
+You should see responses such as:
+
+Reply from <IP>: bytes=32 time<1ms TTL=128
+
+
+If all machines can ping each other, the network is ready.
+
+Roles of the Three Computers
+1. Recording Computer
+
+One laptop serves as the recording machine.
+It runs LabRecorder, which collects all available LSL streams and stores them together in a single XDF file.
+
+2. and 3. Event-Generating Computers
+
+The other two laptops each run a small MATLAB script (included in this repository).
+These scripts:
+
+Create an LSL event stream
+
+Send keyboard press and release events in real time
+
+Once running, these streams automatically appear in LabRecorder on the recording laptop.
+
+Running the Demo
+
+Start the MATLAB scripts on the two event-generating laptops.
+Each script will begin sending LSL keyboard events.
+
+On the recording laptop, launch LabRecorder.
+You should now see all available streams, including the keyboard streams.
+
+Press Record in LabRecorder to start the recording.
+All incoming data will be saved into one XDF file.
+
+After recording, use the provided iMoveScript.m to:
+
+Load the XDF file
+
+Identify streams
+
+Visualize keypress timing
+
+Sonify the performance
+
+Compute synchrony/asynchrony
+
 
 ## References
 
