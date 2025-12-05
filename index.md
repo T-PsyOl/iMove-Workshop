@@ -117,7 +117,16 @@ vis_stream
 
 This ensures all dependencies are correctly added to MATLAB’s path.
 
-##References
+### Optional: Install LabRecorder (for your own recordings)
+
+If you want to record your own LSL data (e.g., keyboard events, EEG streams, sensors), get the  LabRecorder:
+
+https://github.com/labstreaminglayer/App-LabRecorder/releases
+
+Choose the appropriate version for your operating system, download it, and unzip it.
+No installation is required — just run the LabRecorder executable.
+
+## References
 
 Kothe, Christian, Seyed Yahya Shirazi, Tristan Stenner, et al.
 “The Lab Streaming Layer for Synchronized Multimodal Recording.”
