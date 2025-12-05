@@ -9,10 +9,8 @@ Lübeck, Germany
 **The do's and don'ts of multimodal data acquisition in everyday life**
 
 ### **Presenters**
-- **<a href="https://uol.de/en/psychology/divisions/translational-psychology)" target="_blank">Martin Bleichner</a>
-** (University of Oldenburg)  
-- **Melanie Klapprott** (University of Oldenburg)
-
+- <a href="https://uol.de/en/psychology/divisions/translational-psychology" target="_blank">**Martin Bleichner**</a> (University of Oldenburg)  
+- <a href="https://uol.de/neuropsychologie/team/melanie-klapprott-phd-candidate" target="_blank">**Melanie Klapprott**</a>(University of Oldenburg)
 ---
 
 ## Overview
