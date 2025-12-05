@@ -84,7 +84,7 @@ To ensure that the scripts in this repository run correctly, please complete the
 
 2. Install EEGLAB
 Download EEGLAB from the official website:
-https://sccn.ucsd.edu/eeglab/download.php
+<https://sccn.ucsd.edu/eeglab/download.php>
 
 3. Start EEGLAB in MATLAB
 
@@ -121,7 +121,7 @@ This ensures all dependencies are correctly added to MATLAB’s path.
 
 If you want to record your own LSL data (e.g., keyboard events, EEG streams, sensors), get the  LabRecorder:
 
-https://github.com/labstreaminglayer/App-LabRecorder/releases
+<https://github.com/labstreaminglayer/App-LabRecorder/releases>
 
 Choose the appropriate version for your operating system, download it, and unzip it.
 No installation is required — just run the LabRecorder executable.
@@ -131,49 +131,49 @@ No installation is required — just run the LabRecorder executable.
 Kothe, Christian, Seyed Yahya Shirazi, Tristan Stenner, et al.
 “The Lab Streaming Layer for Synchronized Multimodal Recording.”
 Imaging Neuroscience, online ahead of print, 18 August 2025.
-https://doi.org/10.1162/IMAG.a.136
+<https://doi.org/10.1162/IMAG.a.136>
 
 Blum, Sarah, Daniel Hölle, Martin Georg Bleichner, and Stefan Debener.
 “Pocketable Labs for Everyone: Synchronized Multi-Sensor Data Streaming and Recording on Smartphones with the Lab Streaming Layer.”
 Sensors 21, no. 23 (2021): 23.
-https://doi.org/10.3390/s21238135
+<https://doi.org/10.3390/s21238135>
 
 Klapprott, Melanie, and Stefan Debener.
 “Mobile EEG for the Study of Cognitive-Motor Interference during Swimming?”
 Frontiers in Human Neuroscience 18 (2024): 1466853.
-https://doi.org/10.3389/fnhum.2024.1466853
+<https://doi.org/10.3389/fnhum.2024.1466853>
 
 Hölle, Daniel, Sarah Blum, Sven Kissner, Stefan Debener, and Martin G. Bleichner.
 “Real-Time Audio Processing of Real-Life Soundscapes for EEG Analysis: ERPs Based on Natural Sound Onsets.”
 Frontiers in Neuroergonomics 3 (2022).
-https://doi.org/10.3389/fnrgo.2022.793061
+<https://doi.org/10.3389/fnrgo.2022.793061>
 
 Hölle, Daniel, Joost Meekes, and Martin G. Bleichner.
 “Mobile Ear-EEG to Study Auditory Attention in Everyday Life.”
 Behavior Research Methods 53, no. 5 (2021): 2025–2036.
-https://doi.org/10.3758/s13428-021-01538-0
+<https://doi.org/10.3758/s13428-021-01538-0>
 
 Hölle, Daniel, and Martin G. Bleichner.
 “Smartphone-Based Ear-Electroencephalography to Study Sound Processing in Everyday Life.”
 European Journal of Neuroscience 58, no. 7 (2023): 3671–3685.
-https://doi.org/10.1111/ejn.16124
+<https://doi.org/10.1111/ejn.16124>
 
 Papin, Lara J., Manik Esche, Joanna E. M. Scanlon, Nadine S. J. Jacobsen, and Stefan Debener.
 “Investigating Cognitive-Motor Effects during Slacklining Using Mobile EEG.”
 Frontiers in Human Neuroscience 18 (May 2024).
-https://doi.org/10.3389/fnhum.2024.1382959
+<https://doi.org/10.3389/fnhum.2024.1382959>
 
 Rosenkranz, Marc, Timur Cetin, Verena N. Uslar, and Martin G. Bleichner.
 “Investigating the Attentional Focus to Workplace-Related Soundscapes in a Complex Audio-Visual-Motor Task Using EEG.”
 Frontiers in Neuroergonomics 3 (2023).
-https://doi.org/10.3389/fnrgo.2022.1062227
+<https://doi.org/10.3389/fnrgo.2022.1062227>
 
 Rosenkranz, Marc, Thorge Haupt, Manuela Jaeger, Verena N. Uslar, and Martin G. Bleichner.
 “Using Mobile EEG to Study Auditory Work Strain during Simulated Surgical Procedures.”
 Scientific Reports 14, no. 1 (2024): 24026.
-https://doi.org/10.1038/s41598-024-74946-9
+<https://doi.org/10.1038/s41598-024-74946-9>
 
 Korte, Silvia, Manuela Jaeger, Marc Rosenkranz, and Martin G. Bleichner.
 “From Beeps to Streets: Unveiling Sensory Input and Relevance across Auditory Contexts.”
 Frontiers in Neuroergonomics 6 (April 2025): 1571356.
-https://doi.org/10.3389/fnrgo.2025.1571356
+<https://doi.org/10.3389/fnrgo.2025.1571356>
