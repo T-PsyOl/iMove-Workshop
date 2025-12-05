@@ -154,11 +154,11 @@ Reply from <IP>: bytes=32 time<1ms TTL=128
 If all machines can ping each other, the network is ready.
 
 ### Roles of the Three Computers
-- PC1 Recording Computer
+- **PC1** Recording Computer
    One laptop serves as the recording machine.
-   It runs LabRecorder, which collects all available LSL streams and stores them         together in a single XDF file.
+   It runs LabRecorder, which collects all available LSL streams and stores them         together in a single XDF file. The recording PC1 could also serve as a data-generating computer in addition to recording the streams from all others. 
 
-- PC2 and PC3 Data-Generating Computers
+- **PC2** and **PC3** Data-Generating Computers
      The other two laptops each run a small MATLAB script (included in this       repository).
    These scripts:
 
