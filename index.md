@@ -89,9 +89,9 @@ Download EEGLAB from the official website:
 3. Start EEGLAB in MATLAB
 
 Launch MATLAB and run:
-
+```
 eeglab
-
+```
 4. Install the LSL MATLAB Viewer Plugin
 
 Inside EEGLAB:
@@ -113,8 +113,9 @@ After installation, run the LSL Matlab Viewer:
 Go to File → LSL Matlab Viewer
 
 or type in 
+```
 vis_stream
-
+```
 This ensures all dependencies are correctly added to MATLAB’s path.
 
 ### Optional: Install LabRecorder (for your own recordings)
@@ -140,22 +141,22 @@ Check IP connectivity
 Open the terminal: press Win + R, type cmd, press Enter
 
 Look up the computer’s IP address:
-'''
+```
 ipconfig
-'''
+```
 From each machine, test whether the others are reachable:
 
+```
 ping <IP-address-of-other-computer>
-
+```
 
 You should see responses such as:
-
+```
 Reply from <IP>: bytes=32 time<1ms TTL=128
-
-
+```
 If all machines can ping each other, the network is ready.
 
-Roles of the Three Computers
+### Roles of the Three Computers
 1. Recording Computer
 
 One laptop serves as the recording machine.
@@ -166,34 +167,32 @@ It runs LabRecorder, which collects all available LSL streams and stores them to
 The other two laptops each run a small MATLAB script (included in this repository).
 These scripts:
 
-Create an LSL event stream
+* Create an LSL event stream
 
-Send keyboard press and release events in real time
+* Send keyboard press and release events in real time
 
 Once running, these streams automatically appear in LabRecorder on the recording laptop.
 
-Running the Demo
+### Running the Demo
 
-Start the MATLAB scripts on the two event-generating laptops.
-Each script will begin sending LSL keyboard events.
+- Start the MATLAB scripts on the two event-generating laptops.
+Each script will begin sending LSL keyboard events when you type. 
 
-On the recording laptop, launch LabRecorder.
+- On the recording laptop, launch LabRecorder.
 You should now see all available streams, including the keyboard streams.
 
-Press Record in LabRecorder to start the recording.
+- Press Record in LabRecorder to start the recording.
 All incoming data will be saved into one XDF file.
 
-After recording, use the provided iMoveScript.m to:
+- After recording, use the provided iMoveScript.m to:
 
-Load the XDF file
+   - Load the XDF file
 
-Identify streams
+   - Identify streams
 
-Visualize keypress timing
+   - Visualize keypress timing
 
-Sonify the performance
-
-Compute synchrony/asynchrony
+   - Sonify the performance
 
 
 ## References
