@@ -1,6 +1,6 @@
 ## Workshop at iMove 2025 (Lübeck)
 
-This repository accompanies the hands-on session presented at  
+This tutorial and the respective repository accompanies the hands-on session presented at  
 **iMove 2025 – International Conference on Movement and Computing**  
 Lübeck, Germany  
 <https://imove2025.org/>
@@ -9,7 +9,8 @@ Lübeck, Germany
 **The do's and don'ts of multimodal data acquisition in everyday life**
 
 ### **Presenters**
-- **Martin Bleichner** (University of Oldenburg)  
+- **<a href="https://uol.de/en/psychology/divisions/translational-psychology)" target="_blank">Martin Bleichner</a>
+** (University of Oldenburg)  
 - **Melanie Klapprott** (University of Oldenburg)
 
 ---
@@ -88,20 +89,17 @@ Download EEGLAB from the official website:
 
 3. Start EEGLAB in MATLAB
 
-Launch MATLAB and run:
-```
-eeglab
-```
+   Launch MATLAB and run:
+   ```
+   eeglab
+   ```
 4. Install the LSL MATLAB Viewer Plugin
 
-Inside EEGLAB:
-
-Go to File → Manage EEGLAB Extensions
-
-Search for: "LSL"
-
-Install the xdfimport plugin
-Install the lsl matlab viewer plugin
+   Inside EEGLAB:
+   Go to File → Manage EEGLAB Extensions
+   Search for: "LSL"
+      Install the xdfimport plugin
+      Install the lsl matlab viewer plugin
 
 Restart EEGLAB if prompted
 
